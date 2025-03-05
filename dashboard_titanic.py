@@ -84,6 +84,7 @@ app.layout = html.Div(children=[
     ),
    ])
 
-# Jalankan server
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# Bagian ini dibuat menjadi komen karena akan deploy di PythonAnywhere
+# # Jalankan server
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
