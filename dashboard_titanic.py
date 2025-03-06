@@ -48,7 +48,7 @@ fig_violin = px.violin(titanic_df,
 fig_violin.update_layout(yaxis_title='Jumlah')
 
 # Inisiasi aplikasi Dash
-app = dash.Dash(__name__)
+app = dash.Dash()
 
 # Definisikan layout aplikasi
 app.layout = html.Div(children=[
